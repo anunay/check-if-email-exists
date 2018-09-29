@@ -63,7 +63,8 @@ deploy:
   # - Create a `public_repo` GitHub token. Go to: https://github.com/settings/tokens/new
   # - Encrypt it. Go to https://ci.appveyor.com/tools/encrypt
   # - Paste the output down here
-  auth_token: $GH_TOKEN
+  auth_token:
+    secure: d9oq/IhGjZnkGG9Fim3byky3FgyAYzEpUMQiMlKLfEH0g5++pXenp0KASoUP1utZ
   description: ''
   on:
     # TODO Here you can pick which targets will generate binary releases
